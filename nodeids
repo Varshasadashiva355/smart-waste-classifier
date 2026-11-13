@@ -1,0 +1,10 @@
+[
+  "tests/test_server.py::ClassifierTests::test_all_model_classes_map_to_supported_waste_categories",
+  "tests/test_server.py::ClassifierTests::test_other_classes_are_aggregated_and_keep_their_source_label",
+  "tests/test_server.py::DatabaseTests::test_existing_database_is_migrated_without_losing_classifications",
+  "tests/test_server.py::FeedbackAndReportTests::test_admin_report_sanitizes_spreadsheet_formulas",
+  "tests/test_server.py::FeedbackAndReportTests::test_feedback_is_saved_only_for_the_owning_user_classification",
+  "tests/test_server.py::FeedbackAndReportTests::test_user_report_contains_only_their_classifications_and_totals",
+  "tests/test_server.py::SpeechTests::test_speech_rejects_unsupported_language_and_oversized_text",
+  "tests/test_server.py::SpeechTests::test_speech_uses_language_and_caches_generated_audio"
+]
